@@ -134,6 +134,10 @@
   .notice-card ul{list-style:none;}
   .notice-card li{font-size:13.5px;letter-spacing:1px;padding:12px 0 12px 28px;border-bottom:1px dashed var(--line);position:relative;color:var(--ink);}
   .notice-card li:last-child{border-bottom:none;}
+  .bank-box{margin:12px 0 4px;background:var(--blush);border-radius:12px;padding:14px 16px;text-align:center;}
+  .bank-box .bank-name{font-size:13px;color:var(--rose-deep);letter-spacing:1px;}
+  .bank-box .bank-no{font-family:var(--serif-en);font-weight:600;font-size:22px;letter-spacing:2px;color:var(--ink);margin:4px 0;word-break:break-all;}
+  .bank-box .bank-memo{font-size:12px;color:var(--rose-deep);letter-spacing:.5px;}
   .notice-card li::before{content:"♡";position:absolute;left:2px;color:var(--rose);}
   .notice-ps{text-align:center;font-size:12px;color:var(--muted);margin-top:18px;letter-spacing:1px;}
 
@@ -382,7 +386,13 @@
       <div class="notice-card">
         <h3>預約須知</h3>
         <ul>
-          <li>確認預約請於 24 小時內匯款定金 300 元（當日消費折抵、多退少補）</li>
+          <li>確認預約請於 24 小時內匯款定金 $300 到以下帳號唷 .ᐟ（當日消費折抵、多退少補）
+            <div class="bank-box">
+              <div class="bank-name">國泰世華（013）</div>
+              <div class="bank-no">699515533170</div>
+              <div class="bank-memo">🌟 匯款時可附註「熱蠟定金」<br>請截圖回傳通知，感謝您的配合 ◡̎ .ᐟ</div>
+            </div>
+          </li>
           <li>付款方式：現金／匯款轉帳</li>
           <li>預約保留 15 分鐘，超過時間<span class="nowrap">視同取消預約</span></li>
           <li>如需改期請提前三天告知，無故未到定金不退還</li>
